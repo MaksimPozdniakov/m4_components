@@ -6,4 +6,20 @@
     </style>
 
     <style name="Theme.HomeWork4" parent="Base.Theme.HomeWork4" />
+
+    <style name="CheckBoxStyle" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:buttonTint">#03DAC5</item>
+    </style>
+
+    <style name="HeaderStyle" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TitlePoints" parent="HeaderStyle">
+    </style>
+
+    <style name="NumberOfPoints" parent="TitlePoints">
+        <item name="android:textColor">#444444</item>
+    </style>
 </resources>
