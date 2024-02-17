@@ -35,7 +35,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:endIconMode="clear_text">
+                app:counterEnabled="true"
+                app:counterMaxLength="40"
+                app:endIconMode="clear_text" >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editName"
@@ -51,7 +53,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:endIconMode="clear_text">
+                app:endIconMode="clear_text"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editPhone"
@@ -74,9 +77,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textColor="@color/black"
-                    android:text="Пол"/>
+                    android:text="Пол"
+                    android:textAppearance="@style/HeaderStyle"/>
 
                 <RadioGroup
                     android:id="@+id/radioGroup"
@@ -131,12 +133,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Об авторизации на устройстве"
-                    android:checked="true" />
+                    android:checked="true"
+                    style="@style/CheckBoxStyle"/>
 
                 <com.google.android.material.checkbox.MaterialCheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="О новинках и приложениях"/>
+                    android:text="О новинках и приложениях"
+                    style="@style/CheckBoxStyle"/>
 
             </LinearLayout>
 
@@ -154,15 +158,15 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textSize="16sp"
-                        android:text="Баллы"/>
+                        android:text="Баллы"
+                        android:textAppearance="@style/TitlePoints"/>
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textSize="16sp"
                         android:textAlignment="textEnd"
-                        android:text="44/100"/>
+                        android:text="44/100"
+                        style="@style/NumberOfPoints"/>
                 </LinearLayout>
 
                 <ProgressBar
