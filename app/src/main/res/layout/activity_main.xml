@@ -119,7 +119,8 @@
                 <com.google.android.material.switchmaterial.SwitchMaterial
                     android:id="@+id/switchMaterial"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:checked="false"/>
 
             </LinearLayout>
 
@@ -133,7 +134,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Об авторизации на устройстве"
-                    android:checked="true"
+                    android:checked="false"
                     style="@style/CheckBoxStyle"/>
 
                 <com.google.android.material.checkbox.MaterialCheckBox
@@ -161,11 +162,11 @@
                         android:text="Баллы"
                         android:textAppearance="@style/TitlePoints"/>
                     <TextView
+                        android:id="@+id/progressBarCounter"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textAlignment="textEnd"
-                        android:text="44/100"
                         style="@style/NumberOfPoints"/>
                 </LinearLayout>
 
