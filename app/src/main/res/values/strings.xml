@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Home Work 4</string>
     <string name="progress_format">%d/100</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_phone">Телефон</string>
+    <string name="header_radio_group">Пол</string>
+    <string name="male">М</string>
+    <string name="female">Ж</string>
+    <string name="name_switch_material">Получать уведомления</string>
+    <string name="first_material_checkBox">Об авторизации на устройстве</string>
+    <string name="second_material_checkBox">О новинках и приложениях</string>
+    <string name="header_progress_bar">Баллы</string>
+    <string name="button_save">Сохранить</string>
 </resources>
